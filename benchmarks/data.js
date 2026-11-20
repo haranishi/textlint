@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794752989291,
-  "repoUrl": "https://github.com/textlint/textlint",
+  "lastUpdate": 1795143627153,
+  "repoUrl": "https://github.com/haranishi/textlint",
   "entries": {
     "Benchmark": [
       {
@@ -131291,6 +131291,48 @@ window.BENCHMARK_DATA = {
             "name": "npm run bench:jtf-style",
             "value": 0.45515446716,
             "range": "± 0.012730971000000035",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "223786623+haranishi@users.noreply.github.com",
+            "name": "haranishi",
+            "username": "haranishi"
+          },
+          "committer": {
+            "email": "223786623+haranishi@users.noreply.github.com",
+            "name": "haranishi",
+            "username": "haranishi"
+          },
+          "distinct": true,
+          "id": "2679a8120784b049c8f448154225930d36e0983c",
+          "message": "docs: add a tested fixable rule example",
+          "timestamp": "2026-11-20T11:58:23+09:00",
+          "tree_id": "e5e4a56ec8708f5a5e55534c0f1c9338bd50f3d6",
+          "url": "https://github.com/haranishi/textlint/commit/2679a8120784b049c8f448154225930d36e0983c"
+        },
+        "date": 1795143615476,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.21740716966,
+            "range": "± 0.23533344300000003",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.0901047028600002,
+            "range": "± 0.03339806599999995",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.28337654226,
+            "range": "± 0.011387360000000013",
             "unit": "seconds"
           }
         ]
